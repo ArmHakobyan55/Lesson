@@ -58,9 +58,6 @@ public class Lesson {
 //            System.out.println(false);
 //        }
         //28 harc
-        int x = 6, y = 3, z = 14;
-        if ((x < y && x < z) && (y < x && y < z) && (z < x && z < y)){
-            System.out.println(x + " " + y + " " + z);
-        }
+    
     }
 }
