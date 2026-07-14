@@ -298,20 +298,8 @@ public class Lesson {
 //        }else{
 //            System.out.println(result1);
 //        }
-        //54 harc
-//        int t = 698;
-//
-//        int miavor = t % 10;
-//        int tasnavor = t / 10 % 10;
-//        int haryuravor = t / 100;
-//        if ( miavor > tasnavor && miavor > haryuravor) {
-//            System.out.println(miavor);
-//        }else if (tasnavor > miavor && tasnavor > haryuravor) {
-//            System.out.println(tasnavor);
-//        }else  {
-//            System.out.println(haryuravor);
-//        }
-        //55 harc
+
+//        55 harc
 //        int t = 648;
 //
 //        int miavor = t % 10;
@@ -549,9 +537,18 @@ public class Lesson {
 //            y = 1;
 //        }
 //        System.out.println(y);
+//        int row = 3;
+//        int elem = 4;
+//        for ( int i = 3; i <= row; i++) {
+//            for (int j = 0; j < row; j++){
+//                System.out.print("x");
+//            }
+//            System.out.println();
+//        }
 
    }
 }
+
 
 
 
