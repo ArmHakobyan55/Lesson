@@ -1,20 +1,22 @@
 package service;
 
+import java.awt.image.AreaAveragingScaleFilter;
+
 public class Text1 {
     public static void main(String[] args) {
         //211 harc
 //        int[] numbers = {4, -7, 8, -15, 9, 2, -5};
 //
 //        int sum = 0;
-//        int count = 0;
+//        double count = 0;
 //        for (inti = 0; i < numbers.length; i++) {
 //            if (numbers[i] > 0) {
 //                sum += numbers[i];
 //                count++;
 //            }
 //        }
-//        double arithmetic_mean = sum / count;
-//        System.out.println(arithmetic_mean);
+//        System.out.println(sum / count);
+
         //axper es im mot 5.0a tpum bayc chhaskaca inchi
         //214 harc
 
@@ -162,7 +164,7 @@ public class Text1 {
         //233 harc
 
 //        int[] numbers = {2, 5, 4, 6, 9};
-//
+
 //        int sum = 0;
 //        int product = 1;
 //        for (inti = 0; i < numbers.length; i++) {
@@ -176,7 +178,7 @@ public class Text1 {
 
         //234 harc
 //        int[] numbers = {2, 5, 4, 6, 9};
-//
+
 //        int sum = 0;
 //        int count = 0;
 //        for (inti = 0; i < numbers.length; i++) {
@@ -204,7 +206,7 @@ public class Text1 {
 
         //237 harc
 //        int[] numbers = {2, 5, 0, 4, 6, 0, 9, 0};
-//
+
 //        int count = 0;
 //        for (inti = 0; i < numbers.length; i++) {
 //            if (numbers[i] == 0) {
@@ -215,7 +217,7 @@ public class Text1 {
 
         //238 harc
 //        int[] numbers = {2, 5, 4, 6, 9, 12};
-//
+
 //        int k = 3;
 //        int sum = 0;
 //        int count = 0;
@@ -230,7 +232,7 @@ public class Text1 {
 
         //240 harc
 //        int[] numbers = {2, 7, 4, 28, 9, 12};
-//
+
 //        int count = 0;
 //        for (inti = 0; i < numbers.length; i++) {
 //            if (numbers[i] % 7 == 0) {
@@ -238,5 +240,36 @@ public class Text1 {
 //            }
 //        }
 //        System.out.println(count);
+
+//        int []numbers = {375, 68, 517, 96};
+//        int []resalts = new int[numbers.length];
+//
+//
+//
+//        for (inti = 0; i < numbers.length; i++){
+//            int  x = numbers[i];
+//            int resalt = 0;
+//
+//            while (x != 0) {
+//                resalt = resalt * 10 + x % 10;
+//                x = x / 10;
+//            }
+//            resalts[i] = resalt;
+//        }
+//        for (inti = 0; i < resalts.length; i++){
+//            System.out.print(resalts[i] + " ");
+//        }
+//        int []numbers = {375, 68, 517, 96};
+//
+//        int min = numbers[0];
+//        for (inti = 1; i < numbers.length; i++){
+//            if (numbers[i] < min) {
+//                min = numbers[i];
+//            }
+//        }
+//        System.out.println(min);
+;
+      }
     }
-}
+
+
