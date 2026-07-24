@@ -75,27 +75,6 @@ public class Text3 {
 //            System.out.println(numbers1[i]);
 
         //284 harc
-        int[] numbers = {-5, 7, 10, 0, 4, -9, 8};
-        int a = 7;
-        int b = -9;
-
-        for (int i = 0; i < numbers.length; i++){
-            if (numbers[i] == a) {
-                continue;
-            }
-        }
-        int [] numbers1 = new int[a];
-        for (int i = 0, j = 0; i < numbers.length; i++){
-
-            if (numbers[i] == -9){
-                break;
-                j++;
-            }
-
-        }
-        for (int i = 0; i < numbers1.length; i++){
-            System.out.println(numbers1[i]);
-
 //????????????????????
 
         //285 harc
