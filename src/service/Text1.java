@@ -1,10 +1,9 @@
 package service;
 
-import java.awt.image.AreaAveragingScaleFilter;
 
 public class Text1 {
     public static void main(String[] args) {
-        //211 harc
+     //   211 harc
 //        int[] numbers = {4, -7, 8, -15, 9, 2, -5};
 //
 //        int sum = 0;
